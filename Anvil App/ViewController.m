@@ -17,7 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [self.storyboard instantiateViewControllerWithIdentifier:@"mainApp"];
+    
+    //check if there is a logged in user; if so load his/her data and move to dashboard screen
 }
 
 

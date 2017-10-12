@@ -42,8 +42,8 @@
         
         [self presentViewController:alert animated:YES completion:nil];
         
-        emailField.text = @"";
-        passwordField.text = @"";
+//        emailField.text = @"";
+//        passwordField.text = @"";
     }
     else if (![emailField.text emailValid]){
         alert = [UIAlertController alertControllerWithTitle:@"Error!" message: @"Invalid email given." preferredStyle: UIAlertControllerStyleAlert];
@@ -52,8 +52,8 @@
         
         [self presentViewController:alert animated:YES completion:nil];
         
-        emailField.text = @"";
-        passwordField.text = @"";
+//        emailField.text = @"";
+//        passwordField.text = @"";
     }
     else{
         NSLog(@"Email is: %@ and password is: %@", emailField.text, passwordField.text);

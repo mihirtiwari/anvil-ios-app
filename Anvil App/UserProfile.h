@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface UserProfile : NSObject
+@interface UserProfile : NSObject <NSCoding>
 
 @property (nonatomic, copy) NSString *uid;
 @property (nonatomic, copy) NSString *firstName;
@@ -18,8 +18,16 @@
 @property (nonatomic) int gradYear;
 @property (nonatomic) BOOL student;
 @property (nonatomic, strong) NSMutableArray *skills;
+@property (nonatomic, copy) NSString *phoneNumber;
+
+-(instancetype) initWithDetails: (NSString *) firstname
+                lastName: (NSString *) lastName
+                email: (NSString *) email
+                gradYear: (int) gradYear
+                studentOrNot: (BOOL) student
+                phoneNumber: (NSString *) phoneNumber;
 
 -(void) addSkill: (NSString *) skill;
-
+-(BOOL) checkIfPaid;
 
 @end

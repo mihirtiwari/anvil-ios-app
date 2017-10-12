@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6526DBCA1F4BECE400093B1F /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6526DBC91F4BECE400093B1F /* DashboardViewController.m */; };
+		65A676871F88A22400A0C0CB /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A676861F88A22400A0C0CB /* ProfileViewController.m */; };
 		65EA7F461F3F8AD00015F2A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EA7F451F3F8AD00015F2A4 /* main.m */; };
 		65EA7F491F3F8AD00015F2A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EA7F481F3F8AD00015F2A4 /* AppDelegate.m */; };
 		65EA7F4C1F3F8AD00015F2A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EA7F4B1F3F8AD00015F2A4 /* ViewController.m */; };
@@ -20,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6526DBC81F4BECE400093B1F /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		6526DBC91F4BECE400093B1F /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		65A676851F88A22400A0C0CB /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		65A676861F88A22400A0C0CB /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		65EA7F411F3F8AD00015F2A4 /* Anvil App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anvil App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65EA7F451F3F8AD00015F2A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65EA7F471F3F8AD00015F2A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,6 +93,10 @@
 				65EA7F621F3FA80E0015F2A4 /* SignupViewController.m */,
 				65EA7F641F3FBAAD0015F2A4 /* NSString+EmailValidation.h */,
 				65EA7F651F3FBAAD0015F2A4 /* NSString+EmailValidation.m */,
+				6526DBC81F4BECE400093B1F /* DashboardViewController.h */,
+				6526DBC91F4BECE400093B1F /* DashboardViewController.m */,
+				65A676851F88A22400A0C0CB /* ProfileViewController.h */,
+				65A676861F88A22400A0C0CB /* ProfileViewController.m */,
 			);
 			path = "Anvil App";
 			sourceTree = "<group>";
@@ -130,6 +140,7 @@
 				TargetAttributes = {
 					65EA7F401F3F8AD00015F2A4 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RB85W65ES4;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -171,8 +182,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				65EA7F631F3FA80E0015F2A4 /* SignupViewController.m in Sources */,
+				65A676871F88A22400A0C0CB /* ProfileViewController.m in Sources */,
 				65EA7F5D1F3F8AF80015F2A4 /* UserProfile.m in Sources */,
 				65EA7F661F3FBAAD0015F2A4 /* NSString+EmailValidation.m in Sources */,
+				6526DBCA1F4BECE400093B1F /* DashboardViewController.m in Sources */,
 				65EA7F4C1F3F8AD00015F2A4 /* ViewController.m in Sources */,
 				65EA7F491F3F8AD00015F2A4 /* AppDelegate.m in Sources */,
 				65EA7F461F3F8AD00015F2A4 /* main.m in Sources */,
@@ -296,6 +309,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RB85W65ES4;
 				INFOPLIST_FILE = "Anvil App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mihirtiwari.Anvil-App";
@@ -307,6 +321,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RB85W65ES4;
 				INFOPLIST_FILE = "Anvil App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mihirtiwari.Anvil-App";
@@ -333,6 +348,7 @@
 				65EA7F5A1F3F8AD00015F2A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

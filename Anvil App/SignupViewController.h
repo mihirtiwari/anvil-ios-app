@@ -15,6 +15,7 @@
 @property (nonatomic, weak) IBOutlet UITextField *email;
 @property (nonatomic, weak) IBOutlet UITextField *password;
 @property (nonatomic, weak) IBOutlet UITextField *repeatPassword;
+@property (nonatomic, weak) IBOutlet UITextField *phone;
 @property (nonatomic, weak) IBOutlet UITextField *gradYear;
 
 -(IBAction) submit;
